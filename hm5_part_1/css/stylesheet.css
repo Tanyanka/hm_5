@@ -224,12 +224,14 @@ copy
 .forms input:active {
   color: #fffbfb;
 }
-.registretion input {
+.registretion input[type=submit] {
+  cursor: pointer;
   width: 149px;
   height: 35px;
   border-radius: 4px;
   border: 1px outset #3686ca;
   font-size: 14px;
+  text-align: center;
   -webkit-box-shadow: inset 0px 2px 1px 0px rgba(103,198,230,1);
   -moz-box-shadow: inset 0px 2px 1px 0px rgba(103,198,230,1);
   box-shadow: inset 0px 2px 1px 0px rgba(103,198,230,1);
